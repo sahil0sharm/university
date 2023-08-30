@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+    font-family: 'Chivo', sans-serif;
+}
+.hero-section{
+    position: relative;
+    background-image: url("h1_hero1.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 740px;
+    
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+ margin-right: auto;
+ margin-left: auto;
+
+
+}
+.hero{
+    padding: 113px 577px 0 0;
+    position: relative;
+    z-index: 9;
+}
+.para, .think{
+color: aliceblue;
+font-size:25px ;
+font-weight: 200;
+}
+.write{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0%;
+}
+.but{
+    padding: 19px 40px 20px 40px;
+background-color: #007A5C;
+color: aliceblue;
+font-size: 18px;
+border: 1px solid #007A5C;
+}
+
+.but:hover{
+    background-color: transparent;
+}
+
+.row{
+    display:flex;
+}
+.teach{
+    margin-left:10%  ;
+}
+.paddingarea{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FCF2EB;
+}
+.section-title{
+    color: #32404D;
+    font-size: 40px;
+    font-weight:900px;
+}
+.sp{
+    color:#777777;
+    
+    font-size: 18px;
+    font-weight: 400px;
+}
+.offer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.zero{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.pffer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blogclass{
+    width: 49%;
+    padding: 15px;
+}
+.blog{
+    display: flex;
+}
+.pw{
+    color: #32404D;
+    font-size: 40px;
+    font-weight: 900px;
+    margin-bottom:30px ;
+}
+.mf{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.fhead{
+    color:#32404D;
+    font-size: 26px;
+    font-weight:600px ;
+}
+.fpara{
+    color:#5D646A;
+    font-size: 16px;
+    font-weight: 400;
+}
+.backESS{
+    background-image: url(visit1.jpg.webp);
+    height: 752px;
+    width: 39%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+
+    
+}
+.resore{
+    display:flex;
+}
+.foye{
+    width:61% ;
+}
+.year{
+ margin-left: 308px; 
+ padding-right: 82px;
+}
+.hr{
+color:#212529;
+font-size: 40px;
+font-weight: 900px;
+}
+.pr{
+color:#777777;
+font-size: 18px;
+font-weight:400px;
+}
+.fh{
+    color: #32404D;
+    font-size:20px ;
+    font-weight: 700px;
+}
+.fp{
+color: #5D646A;
+font-size:16px ;
+font-weight: 400px;
+}
+.container2{
+    margin: auto;
+}
+.ashoka{
+display: flex;    
+}
+.alumna{
+    width: 33%;
+}
+.sthink{
+    padding-left:50px;
+    padding-top: 30px;
+}
+.alupn{
+    color:#635c5c ;
+ font-weight: 100;
+ font-size: 23px;
+}
+.alf{
+    padding: 26px 18px 8px 22px;
+    text-align: center;
+}
+.fone{
+    color: #32404D;
+    font-size: 40px;
+    font-weight: 900;
+}
+.major{
+   display:flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mon{
+color: #07b98d;
+ border:  solid #07b98d 1px;
+ width: 60px;
+ height: 60px;
+ line-height: 65px;
+ display: block;
+ border-radius: 50%;
+ text-align: center;
+ margin-top: -16px;
+
+}
+.shon{
+    border: 1px solid rgba(93,100,106,0.2);
+    padding: 30px 30px 10px 30px;
+    margin-top: 20px;
+}
+.sthink .alf .alupn:hover{
+    color: #007A5C;
+}
+.shon:hover{
+  background-color: #dff1ed;
+
+}
+.offer .blogclass:hover .blogimg{
+
+    transform: scale(1.05);
+}
+.shon:hover .mon{
+    background-color: #007a5c;
+    color:aliceblue;
+}
+.btn{
+    color: #007A5C;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #007A5C;
+}
+
+.hero-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.btn:hover{
+    letter-spacing: 1.2px;
+    transition: .4s;
+}
+.blogclass:hover{
+    border: 1px solid #007A5C;
+}
+.blogclass{
+    border:1px light grey
+}
+.laston{
+    background-color: #32404d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.lastd{
+    text-align: center;
+}
